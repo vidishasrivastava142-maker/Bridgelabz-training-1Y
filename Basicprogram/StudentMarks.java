@@ -7,7 +7,7 @@ public class StudentMarks {
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
 
-        double[][] marks = new double[n][3]; // Physics, Chemistry, Maths
+        double[][] marks = new double[n][3]; 
         double[] percentage = new double[n];
         String[] grade = new String[n];
 
