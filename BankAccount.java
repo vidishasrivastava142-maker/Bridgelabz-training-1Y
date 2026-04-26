@@ -1,0 +1,16 @@
+class BankAccount {
+    int accNo;
+    double balance;
+}
+
+class SavingsAccount extends BankAccount {
+    double interestRate;
+}
+
+class CheckingAccount extends BankAccount {
+    double withdrawalLimit;
+}
+
+class FixedDepositAccount extends BankAccount {
+    int duration;
+}
